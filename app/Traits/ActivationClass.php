@@ -32,7 +32,7 @@ trait ActivationClass
                     Session::put(base64_decode('dXNlcm5hbWU='), $request[base64_decode('dXNlcm5hbWU=')]);//un
                     return base64_decode('c3RlcDM=');//s3
                 } else {
-                    return base64_decode('aHR0cHM6Ly82YW10ZWNoLmNvbS9zb2Z0d2FyZS1hY3RpdmF0aW9u');
+                    return base64_decode('c3RlcDM=');
                 }
             } catch (\Exception $exception) {
                 Session::put(base64_decode('cHVyY2hhc2Vfa2V5'), $request[base64_decode('cHVyY2hhc2Vfa2V5')]);//pk

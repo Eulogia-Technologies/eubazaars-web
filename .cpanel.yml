@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/eulogia/eubazaars.com/
+    - /bin/cp index.php $DEPLOYPATH
